@@ -1,7 +1,12 @@
 #!/usr/bin/env python
 
+
+try:
+    import simplejson as json
+except ImportError:
+    import json
+
 import Tkinter as tk
-import json
 import random
 import tkMessageBox
 import pkg_resources
